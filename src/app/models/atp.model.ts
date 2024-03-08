@@ -1,5 +1,5 @@
 export interface IAtp {
-  id?: number;
+  id: number;
   id_veicolo: number;
   anno?: number;
   data_pagamento?: Date;
@@ -12,7 +12,7 @@ export interface IAtp {
 
 export class Atp implements IATP {
   constructor(
-    public id?: number,
+    public id: number,
     public id_veicolo: number,
     public anno?: number,
     public data_pagamento?: Date,

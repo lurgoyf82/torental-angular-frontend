@@ -1,5 +1,5 @@
 export interface ITachigrafo {
-  id?: number;
+  id: number;
   id_veicolo: number;
   anno?: number;
   data_pagamento?: Date;
@@ -13,7 +13,7 @@ export interface ITachigrafo {
 
 export class Tachigrafo implements ITachigrafo {
   constructor(
-    public id?: number,
+    public id: number,
     public id_veicolo: number,
     public anno?: number,
     public data_pagamento?: Date,

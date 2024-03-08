@@ -1,5 +1,5 @@
 export interface IMulta {
-  id?: number;
+  id: number;
   id_veicolo: number;
   data_multa: Date;
   importo: number;
@@ -13,7 +13,7 @@ export interface IMulta {
 
 export class Multa implements IMulta {
   constructor(
-    public id?: number,
+    public id: number,
     public id_veicolo: number,
     public data_multa: Date,
     public importo: number,

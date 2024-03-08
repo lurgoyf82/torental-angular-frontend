@@ -1,5 +1,5 @@
 export interface IRevisione {
-  id?: number;
+  id: number;
   id_veicolo: number;
   anno?: number;
   data_pagamento?: Date;
@@ -16,7 +16,7 @@ export interface IRevisione {
 
 export class Revisione implements IRevisione {
   constructor(
-    public id?: number,
+    public id: number,
     public id_veicolo: number,
     public anno?: number,
     public data_pagamento?: Date,

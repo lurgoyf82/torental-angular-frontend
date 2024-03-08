@@ -1,5 +1,5 @@
 export interface IVeicolo {
-  id?: number;
+  id: number;
   id_proprietario?: number;
   id_tipo_veicolo?: number;
   id_tipo_allestimento?: number;
@@ -23,7 +23,7 @@ export interface IVeicolo {
 
 export class Veicolo implements IVeicolo {
   constructor(
-    public id?: number,
+    public id: number,
     public id_proprietario?: number,
     public id_tipo_veicolo?: number,
     public id_tipo_allestimento?: number,

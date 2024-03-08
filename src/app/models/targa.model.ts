@@ -1,5 +1,5 @@
 export interface ITarga {
-  id?: number;
+  id: number;
   id_veicolo: number;
   targa: string;
   data_immatricolazione?: Date;
@@ -11,7 +11,7 @@ export interface ITarga {
 
 export class Targa implements ITarga {
   constructor(
-    public id?: number,
+    public id: number,
     public id_veicolo: number,
     public targa: string,
     public data_immatricolazione?: Date,

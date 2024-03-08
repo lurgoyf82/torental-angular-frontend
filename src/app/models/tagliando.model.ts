@@ -1,5 +1,5 @@
 export interface ITagliando {
-  id?: number;
+  id: number;
   id_veicolo: number;
   targa?: string;
   anno?: number;
@@ -17,7 +17,7 @@ export interface ITagliando {
 
 export class Tagliando implements ITagliando {
   constructor(
-    public id?: number,
+    public id: number,
     public id_veicolo: number,
     public targa?: string,
     public anno?: number,
