@@ -1,5 +1,5 @@
 export interface IAssicurazione {
-  id?: number;
+  id: number;
   id_veicolo: number;
   targa?: string;
   anno?: number;
@@ -17,7 +17,7 @@ export interface IAssicurazione {
 
 export class Assicurazione implements IAssicurazione {
   constructor(
-    public id?: number,
+    public id: number,
     public id_veicolo: number,
     public targa?: string,
     public anno?: number,
